@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Алгортим маршрутной перестановки</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-text-block">
+            <h1 class="main-text">Алгоритм маршрутной перестановки</h1>
+        </div>
+        <h1 style="text-align: center">Работа алгоритма</h1>
+        <div class="description">
+            <h2>Исходный текст записывается в матрицу размером n×m, где n×m = длине текста</h2>
+        </div>
+        <div class="user-input-block">
+            <textarea id="text" class="user-input" rows="10" cols="50" placeholder="Введите текст для расшифровки"></textarea>
+            <div class="int-inputs">
+                <input id="rows" type="number" placeholder="Количество строк матрицы" class="rows">
+                <input id="columns" type="number" placeholder="Количество колонок матрицы" class="columns">
+            </div>
+            <button type="submit">Расшифровать текст</button>
+            <button id="original-decode">Расшифровать оригинальным алгоритмом</button>   
+            <a href="encode.html"><button>Страница шифровки текста</button></a>
+        </div>
+        <div class="ciphertext-container" id="ciphertext">
+            <h2>Расшифрованный текст</h2>
+            <textarea class="ciphertext" rows="20" cols="50"></textarea>
+        </div>
+    </div>
+    <script src="decode.js" type="text/javascript"></script>
+</body>
+</html>

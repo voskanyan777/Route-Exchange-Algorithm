@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main-text-block {
+    border: 2px solid #4a90e2;
+    border-radius: 15px;
+    width: 95%;
+    padding: 20px;
+    background-color: #eaf2fb;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 24px;
+    color: #4a90e2;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.description {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #4a90e2;
+    background-color: #f0f8ff;
+    font-size: 18px;
+}
+
+.user-input-block {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.user-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.int-inputs {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.int-inputs input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+
+.ciphertext {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-left: 80px;
+}
+.ciphertext-container{
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.original-encode{
+    margin-bottom: 20px;
+}
+.original-decode{
+    margin-bottom: 20px;
+}
